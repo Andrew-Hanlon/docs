@@ -68,7 +68,7 @@ private async Task WriteTextAsync(string filePath, string text)
         bufferSize: 4096, useAsync: true))  
     {  
         await sourceStream.WriteAsync(encodedText, 0, encodedText.Length);  
-    };  
+    } 
 }  
 ```  
   
